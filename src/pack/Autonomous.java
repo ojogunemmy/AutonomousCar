@@ -45,7 +45,7 @@ public class Autonomous implements InterfaceCar {
     }
 
     public static void main(String[] args){
-             Autonomous auto=new Autonomous(4,120);
+             Autonomous auto=new Autonomous(4,180);
              System.out.println("slow down:"+auto.slowDown(20)+" -->"+auto.speed);
              System.out.println("Numbers of Passengers: "+auto.getNumPassengers());
              System.out.println("speed up: "+auto.speedUp(20)+" -->"+auto.speed);
