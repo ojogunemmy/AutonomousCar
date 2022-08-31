@@ -52,6 +52,7 @@ public class Autonomous implements InterfaceCar {
              System.out.println("Speed: "+auto.speed);
              System.out.println("Speed limit: "+auto.getTooFastKPH());
              System.out.println("Status: "+auto.getStatus());
+             //More control
 
 
 
