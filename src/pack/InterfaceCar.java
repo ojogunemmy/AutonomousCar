@@ -1,10 +1,10 @@
 package pack;
 
 public interface InterfaceCar {
-    public static final double TOO_FAST_KPH=160.9;
+    final double TOO_FAST_KPH=240;
 
     //methods
-    public double slowDown(double amount);
-    public double speedUp(double amount);
+    double slowDown(double amount);
+    double speedUp(double amount);
 
 }
