@@ -2,5 +2,13 @@ package pack;
 
 public class Control {
 
-    //Incoming
+    /*
+     * automating the process to know when to slow down
+     * using automation principles
+     */
+    public Control(double speed){
+
+    }
+
+
 }
