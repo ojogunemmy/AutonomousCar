@@ -17,8 +17,16 @@ public class Control {
         doc.add(speed);
     }
 
+    //controls speed input based on certain condition
+    public void speedLogic(double speed){
 
-    protected int getSize(){
+    }
+
+
+
+
+
+    public int getSize(){
 
         return doc.size();
     }
