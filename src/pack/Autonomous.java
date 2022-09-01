@@ -42,7 +42,7 @@ public class Autonomous implements InterfaceCar {
 
     public static double getTooFastKPH(){
 
-        return InterfaceCar.TOO_FAST_KPH;
+        return InterfaceCar.maximum_KPH;
     }
 
     public static void main(String[] args){
