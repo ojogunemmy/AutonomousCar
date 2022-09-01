@@ -40,7 +40,8 @@ public class Autonomous implements InterfaceCar {
         return amount;
     }
 
-    public double getTooFastKPH(){
+    public static double getTooFastKPH(){
+
         return InterfaceCar.TOO_FAST_KPH;
     }
 

@@ -1,7 +1,7 @@
 package pack;
 
 public interface InterfaceCar {
-    final double TOO_FAST_KPH=240;
+    final double maximum_KPH=240;
 
     //methods
     double slowDown(double amount);
